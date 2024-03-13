@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-image: url("https://images.hdqwalls.com/wallpapers/pubg-mobile-z1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+#leaderboard{
+    width: 70%;
+    height: 80vh;
+    margin-left: 15%;
+    margin-top: 5%;
+    /* border: 1px solid red; */
+    scroll-behavior: smooth;
+    backdrop-filter: blur;
+    box-shadow: rgb(180,180,180);
+}
+h1{
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    letter-spacing: 5px;
+}
+.playerDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 2%;
+    
+    }
+    .playerList{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;   
+        gap: 40px;
+        background-color: darkgray;
+        margin: 2% 2%;
+        padding: 10px 15px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .playerDetails input{
+        font-size: 20px;
+        font-weight: 800;
+        gap: 10px;
+        width: 230px;
+        background-color: bisque;
+        border: 0;
+        outline: 0;
+        border-radius: 10px;
+        padding: 10px 10px;
+        cursor: pointer;
+    }
+    .playerDetails input:hover{
+        background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
+        color:rgb(211, 12, 12);
+        font-weight: bold;
+    }
+    button{
+        width: 250px;
+        margin-left: 2%;
+        margin-top: 40px;
+        padding: 10px 10px;
+        font-size: 20px;
+        background-color: antiquewhite;
+        border: 0;
+        outline: 0;
+        border-radius: 10px;
+    }
+    /* .icons span:hover{
+        background-color: aquamarine;
+        border-radius: 50%;
+        
+    
+    } */
+    .icons{
+       
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        padding: 0 10px;
+    }
+    .icons span{
+        background-color: rgba(71, 75, 75, 0.384);
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        padding:  2px;
+    }
+    
+.country{
+    position: relative;
+    
+}
+.fa-chevron-down{
+    position: absolute;
+    top: 27%;
+    right: 27%;
+    position: fixed;
+    z-index: 100;
+    padding-right: 10%;
+}
